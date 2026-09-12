@@ -35,7 +35,7 @@ Abstract: Existing reasoning datasets saturate and fail to test abstract, multi-
 SPaRC is a spatial pathfinding reasoning challenge designed to evaluate language models' ability to understand and solve 2D grid-based pathfinding puzzles inspired by "The Witness" game mechanics. The task requires models to:
 
 1. **Parse spatial information**: Understand 2D grid layouts with various constraints and rule symbols
-2. **Apply logical reasoning**: Navigate through complex rule systems including squares, stars, polyshapes, and triangles  
+2. **Apply logical reasoning**: Navigate through complex rule systems including squares, stars, polyshapes, and triangles
 3. **Generate valid paths**: Produce sequences of coordinates that form valid solutions with proper formatting
 4. **Handle multi-step planning**: Execute step-by-step reasoning for complex spatial problems
 5. **Understand game mechanics**: Comprehend region-based rules, path constraints, and symbol interactions
