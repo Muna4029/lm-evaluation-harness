@@ -4,12 +4,16 @@ import re
 import string
 from collections import Counter
 
+
 import numpy as np
 
 
+
 def normalize_answer(s):
+    
     """Lower text and remove punctuation, articles and extra whitespace."""
-    def remove_articles(text):
+        def remove_articles(text):
+        
         return re.sub(r'\b(a|an|the)\b', ' ', text)
 
     def white_space_fix(text):
