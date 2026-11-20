@@ -1,7 +1,8 @@
-import re
 import json
+import re
+from typing import Any, Dict, List, Optional, Tuple
+
 import datasets
-from typing import List, Dict, Any, Tuple, Optional
 
 
 def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:
